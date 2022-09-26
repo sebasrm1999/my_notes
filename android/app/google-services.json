@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1000263693194",
+    "project_id": "mynotes-sebas",
+    "storage_bucket": "mynotes-sebas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000263693194:android:6ba459bd9df93a85214e73",
+        "android_client_info": {
+          "package_name": "com.fluttercourse.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000263693194-eog7kf9iki0nsj0tsqordqpk9nc11h53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoiTbySVxNqKMvS_N7wPjzBqB8w4Qi2_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000263693194-eog7kf9iki0nsj0tsqordqpk9nc11h53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
