@@ -98,7 +98,7 @@ class _CreateUpdateNoteViewState extends State<CreateUpdateNoteView> {
             IconButton(
               onPressed: () async {
                 final text = _textController.text;
-                if (_note != null || text.isEmpty) {
+                if (_note == null || text.isEmpty) {
                   await cannotShowEmptyNoteDialog(context);
                 } else {
                   Share.share(text);

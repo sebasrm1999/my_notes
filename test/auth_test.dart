@@ -171,4 +171,9 @@ class MockAuthProvider implements AuthProvider {
     );
     _user = newUser;
   }
+
+  @override
+  Future<void> sendPasswordReset({required String toEmail}) async {
+    if (!_isInitialized) throw NotInitializedException();
+  }
 }
